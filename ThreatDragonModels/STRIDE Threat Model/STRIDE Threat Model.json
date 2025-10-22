@@ -26,6 +26,91 @@
         "cells": [
           {
             "position": {
+              "x": 74.49999999999955,
+              "y": 80.00000000000028
+            },
+            "size": {
+              "width": 160,
+              "height": 250
+            },
+            "attrs": {
+              "label": {
+                "text": "Internet"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "ceeabb27-758a-4d9d-823a-133f3046774b",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Internet",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 306,
+              "y": 50
+            },
+            "size": {
+              "width": 360,
+              "height": 330
+            },
+            "attrs": {
+              "label": {
+                "text": "Internal trusted zone"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "93213d2d-d721-4ca1-befb-0db293c0e162",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Internal trusted zone",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 720,
+              "y": 140.00000000000028
+            },
+            "size": {
+              "width": 200,
+              "height": 190
+            },
+            "attrs": {
+              "label": {
+                "text": "External internet services"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "50d5c809-d307-4561-ae27-86b2b75d4bbb",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "External internet services",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
+            }
+          },
+          {
+            "position": {
               "x": 100,
               "y": 220
             },
