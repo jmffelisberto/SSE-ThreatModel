@@ -260,7 +260,7 @@
           },
           {
             "position": {
-              "x": 330,
+              "x": 320,
               "y": 150
             },
             "size": {
@@ -380,8 +380,8 @@
           },
           {
             "position": {
-              "x": 330,
-              "y": 260
+              "x": 320,
+              "y": 300
             },
             "size": {
               "width": 100,
@@ -500,8 +500,8 @@
           },
           {
             "position": {
-              "x": 580,
-              "y": 140
+              "x": 500,
+              "y": 150
             },
             "size": {
               "width": 120,
@@ -624,7 +624,7 @@
           },
           {
             "position": {
-              "x": 580,
+              "x": 740,
               "y": 240
             },
             "size": {
@@ -747,120 +747,273 @@
             }
           },
           {
-            "position": {
-              "x": 834,
-              "y": 150.00000000000023
-            },
-            "size": {
-              "width": 160,
-              "height": 60
-            },
+            "shape": "flow",
             "attrs": {
-              "text": {
-                "text": "JNDI/RMI/LDAP Service"
-              },
-              "body": {
+              "line": {
                 "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
                 "strokeDasharray": null
               }
             },
-            "visible": true,
-            "shape": "actor",
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "af5a7bda-325d-462b-95cb-28d7b51e0faa"
-                },
-                {
-                  "group": "right",
-                  "id": "a2bf1537-5853-465e-b8f4-e35c5575c541"
-                },
-                {
-                  "group": "bottom",
-                  "id": "9bd920b9-4aeb-4c47-9cd2-bb54c51aa53f"
-                },
-                {
-                  "group": "left",
-                  "id": "aeed3cfe-e308-4ea2-8273-06fb91bb70de"
-                }
-              ]
-            },
-            "id": "675a9a69-c52a-47fc-8475-8475c8596af9",
-            "zIndex": 7,
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
             "data": {
-              "type": "tm.Actor",
-              "name": "JNDI/RMI/LDAP Service",
+              "type": "tm.Flow",
+              "name": "API Request",
               "description": "",
-              "isTrustBoundary": false,
               "outOfScope": false,
+              "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "providesAuthentication": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
               "threats": []
+            },
+            "labels": [
+              "API Request"
+            ],
+            "id": "60eb8613-0be5-401a-9366-1c81b378f8e3",
+            "source": {
+              "x": 213,
+              "y": 140
+            },
+            "target": {
+              "cell": "f7c725e3-0bad-43f7-8274-143a77b02b85",
+              "port": "c4586268-4a67-4617-8dc1-29f6617a7bb9"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "API Request",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "API Request"
+            ],
+            "id": "17a2d3a7-e1c1-4070-9373-686411f77e2e",
+            "source": {
+              "x": 210,
+              "y": 260
+            },
+            "target": {
+              "cell": "f7c725e3-0bad-43f7-8274-143a77b02b85",
+              "port": "c4586268-4a67-4617-8dc1-29f6617a7bb9"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Input being logged",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Input being logged"
+            ],
+            "id": "e98d45e4-8362-4a22-9453-23f4b13850ee",
+            "source": {
+              "x": 362,
+              "y": 240
+            },
+            "target": {
+              "cell": "bfe03a68-128c-474c-a81a-dd53c5b4e05c",
+              "port": "c4586268-4a67-4617-8dc1-29f6617a7bb9"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "JNDI/lookup request",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "JNDI/lookup request"
+            ],
+            "id": "65816a03-ba4a-4a53-b6af-e08fa90d90c3",
+            "source": {
+              "cell": "bfe03a68-128c-474c-a81a-dd53c5b4e05c",
+              "port": "17a5d6d7-d246-4840-a5c2-400f48bbfdf0"
+            },
+            "target": {
+              "cell": "a649f7d3-2032-41f9-a105-ab1e66721a10",
+              "port": "477cae52-7ddb-4d90-b3a0-cf7ae9a4fa27"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "JNDI/lookup response",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "JNDI/lookup response"
+            ],
+            "id": "5fb1ad1d-90b3-4b0e-adfc-bc547968e5c3",
+            "source": {
+              "x": 740,
+              "y": 251
+            },
+            "target": {
+              "cell": "bfe03a68-128c-474c-a81a-dd53c5b4e05c",
+              "port": "defa6ce4-e7a7-4d86-909b-b1c0365f374f"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Writing logs",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Writing logs"
+            ],
+            "id": "2204dc28-0020-4565-8dac-673abcf1ba9e",
+            "source": {
+              "x": 370,
+              "y": 300
+            },
+            "target": {
+              "cell": "0bea9ce4-9f0f-40b2-a2b7-ed31fe7d9153",
+              "port": "c4d96f29-6cbd-4ef3-8fe7-8e2956f70cd9"
             }
           }
         ]
